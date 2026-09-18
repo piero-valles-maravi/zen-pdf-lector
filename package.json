@@ -1,0 +1,17 @@
+{
+  "name": "lector-bilingue",
+  "version": "1.0.0",
+  "description": "Lector bilingüe de PDF: original e inglés a la izquierda, traducción dibujada en la posición original a la derecha.",
+  "main": "main.js",
+  "author": "",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "latest"
+  },
+  "dependencies": {
+    "pdfjs-dist": "3.11.174"
+  }
+}

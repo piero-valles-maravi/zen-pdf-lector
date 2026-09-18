@@ -1,0 +1,14 @@
+# Dependencias: se reinstalan con `npm install`
+node_modules/
+
+# Salida de empaquetado (cuando se añada electron-builder)
+dist/
+out/
+release/
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Nota: vendor/ SÍ se versiona a propósito — es el bundle de pdf.js que hace
+# que la app funcione offline.
